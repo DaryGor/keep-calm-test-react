@@ -3,11 +3,11 @@ import Main from './Components/Main/Main'
 import Footer from './Components/Footer/Footer'
 import './App.scss';
 
-const App = () => {
+const App = (props) => {
   return (
     <div className="App">
         <Header />
-        <Main />
+        <Main state={props.state}/>
         <Footer />
     </div>
   );
