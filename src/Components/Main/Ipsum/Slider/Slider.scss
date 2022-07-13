@@ -12,6 +12,7 @@
     width: 20%;
     z-index: 3;
     background: linear-gradient(270deg, #ffffff 0%, rgba(255, 255, 255, 0.05) 100%);
+    pointer-events: none;
   }
 
   &::after {
@@ -130,7 +131,7 @@
 
   &__navBlock {
     position: absolute;
-    right: -1px;
+    right: -3px;
     top: 720px;
     display: flex;
     padding: 23px;

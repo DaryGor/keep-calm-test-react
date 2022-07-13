@@ -1,8 +1,11 @@
-import img1 from "../images/lorem1.jpg";
+import img1lorem from "../images/lorem1.jpg";
 import img1mbl from "../images/lorem1-mbl.jpg";
-import img2 from "../images/lorem2.jpg";
+import img2lorem from "../images/lorem2.jpg";
 import img2mbl from "../images/lorem2-mbl.jpg";
+
+import img1 from "../images/1.jpg";
 import img1Max from "../images/img1-max.jpg";
+import img2 from "../images/2.jpg";
 import img2Max from "../images/img2-max.jpg";
 import img3 from "../images/3.jpg";
 import img3Max from "../images/img3-max.jpg";
@@ -29,12 +32,12 @@ let state = {
         ],
         images: [
             {
-                src: img1,
+                src: img1lorem,
                 srcMbl: img1mbl,
                 classWrapper: "lorem__wrapper--1",
                 classImg: 'lorem__img--1'
             }, {
-                src: img2,
+                src: img2lorem,
                 srcMbl: img2mbl,
                 classWrapper: "lorem__wrapper--2",
                 classImg: 'lorem__img--2'
