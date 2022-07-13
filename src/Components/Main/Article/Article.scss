@@ -1,0 +1,28 @@
+@import "./src/styles/mixins";
+
+.article {
+
+  &--2 {
+    padding-top: 35px;
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+
+    @media (max-width: 400px) {
+      padding-top: 55px;
+      grid-row: auto;
+      grid-column: auto;
+    }
+  }
+
+  &__title {
+    @include article-title;
+  }
+
+  &__text {
+    @include article-text;
+
+    & + & {
+      margin-top: 10px;
+    }
+  }
+}

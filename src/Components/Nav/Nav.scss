@@ -1,0 +1,8 @@
+@import "./src/styles/variables";
+@import "./src/styles/mixins";
+
+.nav {
+  &__link {
+    @include nav-link;
+  }
+}

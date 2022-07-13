@@ -1,0 +1,10 @@
+@import "./src/styles/variables";
+
+.main {
+  padding: 95px 0 120px;
+  overflow: hidden;
+
+  @media (max-width: 400px) {
+    padding: 33px 0 75px;
+  }
+}

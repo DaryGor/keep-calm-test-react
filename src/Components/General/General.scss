@@ -1,0 +1,13 @@
+@import "./src/styles/mixins";
+@import "./src/styles/variables";
+
+.general {
+  &__title {
+    @include page-title;
+
+    & span {
+      font-style: italic;
+      text-transform: lowercase;
+    }
+  }
+}

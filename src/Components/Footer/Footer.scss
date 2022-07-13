@@ -1,0 +1,18 @@
+@import "./src/styles/variables";
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: $black;
+  padding: 18px;
+
+  &__copyright {
+    display: inline-block;
+    padding: 5px 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    color: $white;
+  }
+}
